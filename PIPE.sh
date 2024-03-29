@@ -1,7 +1,4 @@
-#!/bin/bash
-
-# Install Python packages
-pip install pyppeteer==1.0.2
-pip install pyppeteer_stealth
-pip install indian_names
-pip install getindianname
+pip install playwright==1.23.1 --no-deps
+python3 -m playwright install
+pip install faker
+pip install pyee
